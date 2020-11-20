@@ -42,8 +42,8 @@
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="{Binding NumAction}" Width="50"></TextBlock>
-                            <TextBlock Text="{Binding NomAction}" Width="130"></TextBlock>
+                            <TextBlock Text="{Binding MonAction.NumAction}" Width="50"></TextBlock>
+                            <TextBlock Text="{Binding MonAction.NomAction}" Width="130"></TextBlock>
                             <TextBlock Text="{Binding PrixAchat}" Width="70"></TextBlock>
                             <TextBlock Text="{Binding Quantite}" Width="70"></TextBlock>
                             <TextBlock Text="{Binding Total}" Width="110"></TextBlock>
